@@ -246,7 +246,7 @@ function ForkliftForm() {
             </div>
             
             <div className="btn">
-               <Link to ="/grid"><button type="button" className="cancel">Cancel</button></Link>
+               <Link to ="/"><button type="button" className="cancel">Cancel</button></Link>
                {(params.view != undefined)?<></>:
                 <button type="button" className="submit" id="submitbtn" onClick={()=>submitForm()}>{(params.id == undefined) ? "Save":"Update"}</button>}
             </div>
